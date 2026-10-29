@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "Se usar este trabalho, por favor cite-o assim."
+title: "Câncer de mama no Brasil: análise de dados públicos sobre diagnóstico, tratamento e acesso ao cuidado"
+type: software
+authors:
+  - family-names: Cansi
+    given-names: Thalles
+  - family-names: Molinete
+    given-names: Joana de Medeiros Oliveira Hulse
+  - family-names: Bramante
+    given-names: Pedro Henrique Medeiros
+repository-code: "https://github.com/ThallesCansi/cancer-mama-brasil"
+url: "https://thallescansi.github.io/cancer-mama-brasil/"
+license: MIT
+version: 1.0.0
+date-released: 2026-10-28
+keywords:
+  - câncer de mama
+  - saúde pública
+  - SUS
+  - DATASUS
+  - INCA
+  - dados abertos
