@@ -1,0 +1,10 @@
+/*-- scss:defaults --*/
+$primary: #3987e5;
+$link-color: #6da7ec;
+
+/*-- scss:rules --*/
+.hero .lead, .numero .rotulo, .cartao .desc { color: #c3c2b7; }
+.numero, .cartao { background: #222; border-color: #3a3a38; }
+.numero .valor { color: #6da7ec; }
+/* As figuras têm fundo claro; uma moldura suave evita o contraste brusco no tema escuro */
+.cell-output-display img { background: #fcfcfb; padding: 4px; }

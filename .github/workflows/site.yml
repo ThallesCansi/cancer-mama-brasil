@@ -1,0 +1,49 @@
+name: Publicar site
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "notebooks/**"
+      - "index.qmd"
+      - "_quarto.yml"
+      - "site/**"
+      - ".github/workflows/site.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  construir:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      # Os cadernos não são reexecutados (execute: enabled: false); o Jupyter só lê os arquivos
+      - run: pip install jupyter
+      - uses: quarto-dev/quarto-actions/setup@v2
+        with:
+          version: 1.10.19
+      - run: quarto render
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+  publicar:
+    needs: construir
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - id: deploy
+        uses: actions/deploy-pages@v4

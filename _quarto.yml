@@ -1,0 +1,88 @@
+project:
+  type: website
+  output-dir: _site
+  render:
+    - index.qmd
+    - notebooks/*.ipynb
+
+# Os cadernos são publicados com as saídas já gravadas: o site não reexecuta nada,
+# porque os dados brutos (cerca de 7 GB) não ficam no repositório.
+execute:
+  enabled: false
+
+lang: pt-BR
+
+website:
+  title: "Câncer de mama no Brasil"
+  description: "Dados públicos sobre diagnóstico, tratamento e acesso ao cuidado do câncer de mama nas cinco regiões do país."
+  site-url: "https://thallescansi.github.io/cancer-mama-brasil/"
+  repo-url: "https://github.com/ThallesCansi/cancer-mama-brasil"
+  repo-actions: [source, issue]
+  page-navigation: true
+  back-to-top-navigation: true
+  search:
+    location: navbar
+    type: overlay
+  navbar:
+    background: primary
+    left:
+      - text: "Início"
+        href: index.qmd
+      - text: "Cadernos"
+        href: notebooks/00_guia_do_projeto.ipynb
+      - text: "Síntese"
+        href: notebooks/12_sintese_para_o_tcc.ipynb
+    right:
+      - icon: github
+        href: "https://github.com/ThallesCansi/cancer-mama-brasil"
+        aria-label: "Repositório no GitHub"
+  sidebar:
+    style: docked
+    collapse-level: 2
+    contents:
+      - section: "Comece aqui"
+        contents:
+          - notebooks/00_guia_do_projeto.ipynb
+          - notebooks/01_fontes_e_qualidade_dos_dados.ipynb
+      - section: "Quem são as pacientes"
+        contents:
+          - notebooks/02_perfil_das_pacientes.ipynb
+      - section: "Diagnóstico"
+        contents:
+          - notebooks/03_rastreamento_e_diagnostico.ipynb
+          - notebooks/04_estadio_e_tipo_histologico.ipynb
+          - notebooks/05_subtipos_moleculares.ipynb
+      - section: "Tratamento"
+        contents:
+          - notebooks/06_tempo_ate_o_tratamento.ipynb
+          - notebooks/07_sazonalidade_dos_diagnosticos.ipynb
+          - notebooks/08_rede_publica_filantropica_e_privada.ipynb
+      - section: "Acesso"
+        contents:
+          - notebooks/09_equipamentos_e_servicos.ipynb
+          - notebooks/10_deslocamento_para_o_tratamento.ipynb
+      - section: "Desfecho"
+        contents:
+          - notebooks/11_mortalidade.ipynb
+      - section: "Para o TCC"
+        contents:
+          - notebooks/12_sintese_para_o_tcc.ipynb
+  page-footer:
+    left: "Dados públicos do INCA e do DATASUS · Código sob licença MIT · Textos e figuras sob CC BY 4.0"
+    right: "TCC Ilum · CNPEM · 2026"
+
+format:
+  html:
+    theme:
+      light: [cosmo, site/estilo.scss]
+      dark: [darkly, site/estilo-escuro.scss]
+    toc: true
+    toc-title: "Nesta página"
+    toc-depth: 2
+    code-fold: true
+    code-summary: "Ver o código"
+    code-tools: false
+    smooth-scroll: true
+    anchor-sections: true
+    fig-responsive: true
+    df-print: default

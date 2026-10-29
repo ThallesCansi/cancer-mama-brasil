@@ -1,0 +1,131 @@
+---
+title: "Câncer de mama no Brasil"
+subtitle: "O que os dados públicos dizem sobre diagnóstico, tratamento e acesso ao cuidado nas cinco regiões do país"
+page-layout: full
+toc: false
+title-block-banner: false
+---
+
+::: {.hero}
+::: {.lead}
+Este site reúne a análise de dados públicos do Trabalho de Conclusão de Curso "Investigação de assinaturas de vesículas extracelulares associadas à modulação fenotípica de células mamárias no contexto do câncer de mama" (Ilum Escola de Ciência, CNPEM). Os cadernos mostram, passo a passo e com linguagem acessível, onde e para quem o diagnóstico chega tarde, quanto se espera pelo tratamento e quanto é preciso viajar para recebê-lo.
+:::
+:::
+
+::: {.numeros}
+::: {.numero}
+::: {.valor}
+51%
+:::
+::: {.rotulo}
+das mulheres do Norte chegam ao hospital com câncer em estádio III ou IV (36% no Sul)
+:::
+:::
+
+::: {.numero}
+::: {.valor}
+57%
+:::
+::: {.rotulo}
+das pacientes do SUS começam o tratamento depois dos 60 dias previstos em lei
+:::
+:::
+
+::: {.numero}
+::: {.valor}
+309 dias
+:::
+::: {.rotulo}
+é a espera mediana entre o diagnóstico e a radioterapia no Centro-Oeste (193 no Sul)
+:::
+:::
+
+::: {.numero}
+::: {.valor}
+50%
+:::
+::: {.rotulo}
+dos mamógrafos e tomógrafos do país estão disponíveis ao SUS
+:::
+:::
+
+::: {.numero}
+::: {.valor}
+31%
+:::
+::: {.rotulo}
+das pacientes do Norte viajam mais de 150 km para fazer radioterapia (3% no Sul)
+:::
+:::
+
+::: {.numero}
+::: {.valor}
++71%
+:::
+::: {.rotulo}
+foi o aumento da mortalidade por câncer de mama em mulheres com menos de 50 anos no Norte, de 2013 a 2024
+:::
+:::
+:::
+
+## Os cadernos
+
+Cada caderno responde a uma pergunta. Todos seguem a mesma estrutura: a pergunta, os dados usados, o cálculo explicado e, ao final, como ler o resultado e o que levar para o texto.
+
+::: {.cartoes}
+::: {.cartao}
+[[Comece aqui]{.titulo}<br>[Organização do projeto, vocabulário e a qualidade de cada fonte de dados.]{.desc}](notebooks/00_guia_do_projeto.ipynb)
+:::
+
+::: {.cartao}
+[[Perfil das pacientes]{.titulo}<br>[Idade, raça/cor, escolaridade, estado conjugal e migração.]{.desc}](notebooks/02_perfil_das_pacientes.ipynb)
+:::
+
+::: {.cartao}
+[[Rastreamento e diagnóstico]{.titulo}<br>[Mamografias do SUS, resultados BI-RADS, espera pelo laudo e biópsias.]{.desc}](notebooks/03_rastreamento_e_diagnostico.ipynb)
+:::
+
+::: {.cartao}
+[[Estádio ao diagnóstico]{.titulo}<br>[Em que fase o câncer é descoberto, por região, idade, raça/cor e escolaridade.]{.desc}](notebooks/04_estadio_e_tipo_histologico.ipynb)
+:::
+
+::: {.cartao}
+[[Subtipos moleculares]{.titulo}<br>[Luminal, HER2 positivo e triplo-negativo, e por que só é possível estimá-los.]{.desc}](notebooks/05_subtipos_moleculares.ipynb)
+:::
+
+::: {.cartao}
+[[Tempo até o tratamento]{.titulo}<br>[A espera até o primeiro tratamento e até a radioterapia, de 30 dias a mais de 2 anos.]{.desc}](notebooks/06_tempo_ate_o_tratamento.ipynb)
+:::
+
+::: {.cartao}
+[[Sazonalidade]{.titulo}<br>[Há meses com mais diagnósticos? Outubro Rosa e pandemia.]{.desc}](notebooks/07_sazonalidade_dos_diagnosticos.ipynb)
+:::
+
+::: {.cartao}
+[[Rede pública, filantrópica e privada]{.titulo}<br>[Onde as mulheres são tratadas e o que muda com o tipo de hospital.]{.desc}](notebooks/08_rede_publica_filantropica_e_privada.ipynb)
+:::
+
+::: {.cartao}
+[[Equipamentos e serviços]{.titulo}<br>[Mamógrafos, tomógrafos e hospitais oncológicos: quantos são, quantos atendem o SUS e onde estão.]{.desc}](notebooks/09_equipamentos_e_servicos.ipynb)
+:::
+
+::: {.cartao}
+[[Deslocamento]{.titulo}<br>[Quanto as pacientes viajam para cirurgia, quimioterapia, hormonioterapia e radioterapia.]{.desc}](notebooks/10_deslocamento_para_o_tratamento.ipynb)
+:::
+
+::: {.cartao}
+[[Mortalidade]{.titulo}<br>[Óbitos e taxas padronizadas por região e idade, antes e depois dos 50 anos.]{.desc}](notebooks/11_mortalidade.ipynb)
+:::
+
+::: {.cartao}
+[[Síntese para o TCC]{.titulo}<br>[Os resultados com números, figuras, ressalvas e uma proposta de texto de métodos.]{.desc}](notebooks/12_sintese_para_o_tcc.ipynb)
+:::
+:::
+
+## De onde vêm os dados
+
+Todas as análises usam bases públicas e anonimizadas do Instituto Nacional de Câncer (INCA) e do DATASUS, do Ministério da Saúde: os Registros Hospitalares de Câncer, o Painel de Oncologia, o Sistema de Informação do Câncer (SISCAN), as autorizações de quimioterapia e radioterapia do SUS (APAC), o Cadastro Nacional de Estabelecimentos de Saúde (CNES) e o Sistema de Informações sobre Mortalidade (SIM), com estimativas populacionais do IBGE. O caderno [01](notebooks/01_fontes_e_qualidade_dos_dados.ipynb) descreve cada fonte e seus limites.
+
+## Sobre o projeto
+
+O TCC é desenvolvido por Joana de Medeiros Oliveira Hulse Molinete e Pedro Henrique Medeiros Bramante, com orientação da Dra. Ana Clara Bastos (LNBio/CNPEM) e coorientação do Prof. Dr. Emanuel Carrilho (IQSC/USP). A análise de dados públicos foi conduzida pelos colaboradores Thalles e Thomas. Todo o código, do download dos dados às figuras, está no [repositório do GitHub](https://github.com/ThallesCansi/cancer-mama-brasil) e pode ser reproduzido por qualquer pessoa.

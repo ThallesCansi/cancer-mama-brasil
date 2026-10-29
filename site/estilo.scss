@@ -1,0 +1,50 @@
+/*-- scss:defaults --*/
+$primary: #1c5cab;
+$link-color: #2a78d6;
+$body-bg: #fcfcfb;
+$body-color: #0b0b0b;
+$font-family-sans-serif: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+$headings-font-weight: 700;
+
+/*-- scss:rules --*/
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap");
+
+.hero {
+  padding: .5rem 0 .5rem;
+  h1 { font-size: 2.4rem; line-height: 1.15; margin-bottom: .75rem; }
+  .lead { font-size: 1.15rem; color: #52514e; max-width: 46rem; }
+}
+.numeros {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  @media (max-width: 900px) { grid-template-columns: repeat(2, 1fr); }
+  @media (max-width: 560px) { grid-template-columns: 1fr; }
+  gap: 1rem;
+  margin: 1.5rem 0 2rem;
+}
+.numero {
+  border: 1px solid #e4e3df;
+  border-radius: 10px;
+  padding: 1rem 1.1rem;
+  background: #fff;
+  .valor { font-size: 2rem; font-weight: 700; color: $primary; line-height: 1.1; }
+  .rotulo { font-size: .9rem; color: #52514e; margin-top: .35rem; }
+}
+.cartoes {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1rem;
+  margin: 1rem 0 2rem;
+}
+.cartao {
+  border: 1px solid #e4e3df;
+  border-radius: 10px;
+  padding: 1rem 1.1rem;
+  background: #fff;
+  transition: border-color .15s ease;
+  &:hover { border-color: $link-color; }
+  a { text-decoration: none; }
+  .titulo { font-weight: 700; margin-bottom: .3rem; }
+  .desc { font-size: .92rem; color: #52514e; }
+}
+.cell-output-display img { border-radius: 6px; }
