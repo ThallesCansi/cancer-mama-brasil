@@ -1,0 +1,5 @@
+﻿tratamento,n,mediana,p25,p75,pct_mais_60_dias,pct_mais_6_meses,pct_mais_1_ano
+Cirurgia,88559,0.0,0.0,84.0,33.2,9.1,2.1
+Quimioterapia,368901,76.0,41.0,140.0,59.9,17.2,6.1
+Quimioterapia + Radioterapia,883,118.0,63.5,180.0,77.1,24.6,5.4
+Radioterapia,36219,138.0,75.0,247.0,81.7,38.1,10.4

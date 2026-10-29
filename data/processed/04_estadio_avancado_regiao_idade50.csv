@@ -1,0 +1,11 @@
+﻿regiao_res,grupo_idade,n,eventos,pct,ic_inf,ic_sup
+Centro-Oeste,50 anos ou mais,5920,2662,45.0,43.7,46.2
+Centro-Oeste,Menos de 50 anos,3865,2043,52.9,51.3,54.4
+Nordeste,50 anos ou mais,38382,15297,39.9,39.4,40.3
+Nordeste,Menos de 50 anos,22854,10722,46.9,46.3,47.6
+Norte,50 anos ou mais,5531,2635,47.6,46.3,49.0
+Norte,Menos de 50 anos,4252,2386,56.1,54.6,57.6
+Sudeste,50 anos ou mais,93801,32034,34.2,33.8,34.5
+Sudeste,Menos de 50 anos,44507,18088,40.6,40.2,41.1
+Sul,50 anos ou mais,33126,11396,34.4,33.9,34.9
+Sul,Menos de 50 anos,16431,6296,38.3,37.6,39.1

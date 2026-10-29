@@ -1,0 +1,16 @@
+﻿regiao_res,escolaridade_grupo,n,eventos,pct,ic_inf,ic_sup
+Centro-Oeste,Até fundamental incompleto,2246,1112,49.5,47.4,51.6
+Centro-Oeste,Fundamental completo/médio,2321,1113,48.0,45.9,50.0
+Centro-Oeste,Superior,980,416,42.4,39.4,45.6
+Nordeste,Até fundamental incompleto,22829,10398,45.5,44.9,46.2
+Nordeste,Fundamental completo/médio,21782,9021,41.4,40.8,42.1
+Nordeste,Superior,5913,1937,32.8,31.6,34.0
+Norte,Até fundamental incompleto,3413,1878,55.0,53.4,56.7
+Norte,Fundamental completo/médio,3979,2096,52.7,51.1,54.2
+Norte,Superior,1372,607,44.2,41.6,46.9
+Sudeste,Até fundamental incompleto,40892,16212,39.6,39.2,40.1
+Sudeste,Fundamental completo/médio,53609,19585,36.5,36.1,36.9
+Sudeste,Superior,17662,4957,28.1,27.4,28.7
+Sul,Até fundamental incompleto,17096,6722,39.3,38.6,40.1
+Sul,Fundamental completo/médio,20598,7162,34.8,34.1,35.4
+Sul,Superior,6048,1815,30.0,28.9,31.2

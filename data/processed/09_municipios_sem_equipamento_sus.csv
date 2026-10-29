@@ -1,0 +1,31 @@
+﻿regiao,equipamento,municipios,municipios_sem_sus,pct_municipios_sem_sus,pct_habitantes_em_municipio_sem_sus
+Centro-Oeste,Mamógrafo,467,363,77.7,20.7
+Nordeste,Mamógrafo,1794,1500,83.6,41.3
+Norte,Mamógrafo,450,326,72.4,28.4
+Sudeste,Mamógrafo,1668,1219,73.1,14.9
+Sul,Mamógrafo,1191,940,78.9,26.2
+Centro-Oeste,Tomógrafo,467,357,76.4,19.3
+Nordeste,Tomógrafo,1794,1577,87.9,44.9
+Norte,Tomógrafo,450,371,82.4,34.7
+Sudeste,Tomógrafo,1668,1241,74.4,15.7
+Sul,Tomógrafo,1191,935,78.5,25.2
+Centro-Oeste,Ressonância magnética,467,415,88.9,32.2
+Nordeste,Ressonância magnética,1794,1689,94.1,56.1
+Norte,Ressonância magnética,450,406,90.2,45.5
+Sudeste,Ressonância magnética,1668,1458,87.4,29.9
+Sul,Ressonância magnética,1191,1056,88.7,39.5
+Centro-Oeste,Ultrassom,467,62,13.3,2.1
+Nordeste,Ultrassom,1794,356,19.8,4.6
+Norte,Ultrassom,450,62,13.8,2.2
+Sudeste,Ultrassom,1668,452,27.1,2.9
+Sul,Ultrassom,1191,479,40.2,7.9
+Centro-Oeste,PET/CT,467,463,99.1,79.8
+Nordeste,PET/CT,1794,1779,99.2,77.9
+Norte,PET/CT,450,448,99.6,80.3
+Sudeste,PET/CT,1668,1645,98.6,68.1
+Sul,PET/CT,1191,1184,99.4,85.2
+Centro-Oeste,Gama câmara (medicina nuclear),467,448,95.9,54.7
+Nordeste,Gama câmara (medicina nuclear),1794,1756,97.9,70.2
+Norte,Gama câmara (medicina nuclear),450,437,97.1,64.3
+Sudeste,Gama câmara (medicina nuclear),1668,1587,95.1,51.7
+Sul,Gama câmara (medicina nuclear),1191,1151,96.6,64.3

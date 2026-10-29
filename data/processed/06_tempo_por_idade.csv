@@ -1,0 +1,11 @@
+﻿regiao_res,grupo_idade,n,mediana,p25,p75,pct_mais_60_dias,pct_mais_6_meses,pct_mais_1_ano
+Centro-Oeste,50 anos ou mais,19596,78.0,36.0,148.0,60.2,18.5,5.3
+Centro-Oeste,Menos de 50 anos,11884,64.0,29.0,123.0,52.6,15.0,5.3
+Nordeste,50 anos ou mais,72594,74.0,36.0,140.0,58.2,17.1,5.0
+Nordeste,Menos de 50 anos,42392,62.0,30.0,121.0,51.1,14.8,5.4
+Norte,50 anos ou mais,11941,88.0,37.0,177.0,62.8,24.4,8.1
+Norte,Menos de 50 anos,8387,77.0,36.0,153.0,59.0,20.7,7.2
+Sudeste,50 anos ou mais,157570,82.0,37.0,152.0,61.4,19.4,6.1
+Sudeste,Menos de 50 anos,68439,70.0,34.0,135.0,55.8,17.3,6.9
+Sul,50 anos ou mais,69201,64.0,28.0,124.0,52.5,14.4,4.3
+Sul,Menos de 50 anos,32558,53.0,22.0,109.0,45.3,13.5,5.2

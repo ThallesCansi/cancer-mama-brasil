@@ -1,0 +1,5 @@
+﻿origem_encaminhamento,n,mediana,p25,p75,pct_mais_60_dias,pct_mais_6_meses,pct_mais_1_ano
+Conta própria,5545,55.0,31.0,93.0,45.5,7.7,1.9
+Não SUS,31704,58.0,30.0,119.0,48.8,16.4,4.4
+SUS,170180,70.0,37.0,127.0,57.0,15.0,4.2
+Sem informação,117955,72.0,40.0,122.0,58.6,12.7,3.6

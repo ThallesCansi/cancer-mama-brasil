@@ -1,0 +1,31 @@
+﻿regiao,equipamento,qt_existente,qt_em_uso,qt_sus,qt_em_uso_sus,habitantes,em_uso_por_100mil_hab,em_uso_sus_por_100mil_hab,pct_disponivel_sus
+Centro-Oeste,Gama câmara (medicina nuclear),90,85,34,33,17238818,0.49,0.19,37.8
+Centro-Oeste,Mamógrafo,633,610,278,269,17238818,3.54,1.56,43.9
+Centro-Oeste,PET/CT,16,16,5,5,17238818,0.09,0.03,31.2
+Centro-Oeste,Ressonância magnética,407,393,200,195,17238818,2.28,1.13,49.1
+Centro-Oeste,Tomógrafo,867,840,400,394,17238818,4.87,2.29,46.1
+Centro-Oeste,Ultrassom,5719,5531,2566,2486,17238818,32.08,14.42,44.9
+Nordeste,Gama câmara (medicina nuclear),170,166,97,95,57244485,0.29,0.17,57.1
+Nordeste,Mamógrafo,1598,1548,878,848,57244485,2.7,1.48,54.9
+Nordeste,PET/CT,35,34,26,26,57244485,0.06,0.05,74.3
+Nordeste,Ressonância magnética,693,679,372,368,57244485,1.19,0.64,53.7
+Nordeste,Tomógrafo,1390,1352,816,797,57244485,2.36,1.39,58.7
+Nordeste,Ultrassom,13799,13314,7134,6912,57244485,23.26,12.07,51.7
+Norte,Gama câmara (medicina nuclear),59,56,30,28,18801282,0.3,0.15,50.8
+Norte,Mamógrafo,508,482,285,268,18801282,2.56,1.43,56.1
+Norte,PET/CT,4,4,2,2,18801282,0.02,0.01,50.0
+Norte,Ressonância magnética,245,237,156,149,18801282,1.26,0.79,63.7
+Norte,Tomógrafo,538,514,298,289,18801282,2.73,1.54,55.4
+Norte,Ultrassom,3897,3701,1971,1848,18801282,19.68,9.83,50.6
+Sudeste,Gama câmara (medicina nuclear),432,414,227,217,88825643,0.47,0.24,52.5
+Sudeste,Mamógrafo,3248,3133,1400,1343,88825643,3.53,1.51,43.1
+Sudeste,PET/CT,81,80,39,39,88825643,0.09,0.04,48.1
+Sudeste,Ressonância magnética,1749,1715,693,676,88825643,1.93,0.76,39.6
+Sudeste,Tomógrafo,3415,3321,1547,1501,88825643,3.74,1.69,45.3
+Sudeste,Ultrassom,27004,25937,10863,10431,88825643,29.2,11.74,40.2
+Sul,Gama câmara (medicina nuclear),144,135,79,75,31310809,0.43,0.24,54.9
+Sul,Mamógrafo,1038,1002,602,577,31310809,3.2,1.84,58.0
+Sul,PET/CT,21,21,14,14,31310809,0.07,0.04,66.7
+Sul,Ressonância magnética,654,636,370,363,31310809,2.03,1.16,56.6
+Sul,Tomógrafo,1278,1243,694,674,31310809,3.97,2.15,54.3
+Sul,Ultrassom,9564,9216,4690,4534,31310809,29.43,14.48,49.0

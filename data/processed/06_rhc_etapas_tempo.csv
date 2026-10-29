@@ -1,0 +1,16 @@
+﻿etapa,regiao,n,mediana,pct_mais_60_dias,pct_mais_6_meses,pct_mais_1_ano
+Consulta até diagnóstico,Centro-Oeste,5675,22.0,22.7,5.2,1.4
+Consulta até diagnóstico,Nordeste,34249,21.0,17.9,3.2,0.8
+Consulta até diagnóstico,Norte,3444,26.0,26.2,6.9,1.4
+Consulta até diagnóstico,Sudeste,61222,14.0,14.0,2.3,0.5
+Consulta até diagnóstico,Sul,29063,18.0,16.6,3.1,0.7
+Diagnóstico até tratamento,Centro-Oeste,14134,82.0,63.1,17.7,5.4
+Diagnóstico até tratamento,Nordeste,81824,64.0,52.5,15.4,4.9
+Diagnóstico até tratamento,Norte,15206,88.0,64.8,23.1,7.4
+Diagnóstico até tratamento,Sudeste,151597,74.0,59.7,12.1,2.4
+Diagnóstico até tratamento,Sul,62623,62.0,51.1,14.6,5.3
+Consulta até tratamento,Centro-Oeste,14665,45.0,40.1,8.7,1.9
+Consulta até tratamento,Nordeste,85404,40.0,34.8,6.0,1.2
+Consulta até tratamento,Norte,15588,45.0,41.6,11.7,2.4
+Consulta até tratamento,Sudeste,156068,48.0,39.7,5.7,1.0
+Consulta até tratamento,Sul,66056,40.0,35.0,6.9,2.1
