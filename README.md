@@ -2,7 +2,7 @@
 
 # Câncer de mama no Brasil
 
-### O que os dados públicos dizem sobre diagnóstico, tratamento e acesso ao cuidado nas cinco regiões do país
+### O que os dados públicos dizem sobre o diagnóstico, tratamento e acesso ao cuidado nas cinco regiões do país
 
 [![Site](https://img.shields.io/badge/site-cadernos%20online-1c5cab?style=for-the-badge)](https://thallescansi.github.io/cancer-mama-brasil/)
 [![Testes](https://img.shields.io/github/actions/workflow/status/ThallesCansi/cancer-mama-brasil/testes.yml?branch=main&label=testes&style=for-the-badge)](https://github.com/ThallesCansi/cancer-mama-brasil/actions/workflows/testes.yml)
