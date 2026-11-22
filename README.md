@@ -16,7 +16,7 @@
 
 ---
 
-Este repositório reúne a análise de dados públicos do Trabalho de Conclusão de Curso *"Investigação de assinaturas de vesículas extracelulares associadas à modulação fenotípica de células mamárias no contexto do câncer de mama"* (Ilum Escola de Ciência, CNPEM). Ele atende ao quarto objetivo específico do projeto: entender os desafios de acesso ao diagnóstico e ao tratamento do câncer de mama no Sistema Único de Saúde, comparando as regiões Norte, Nordeste, Centro-Oeste, Sudeste e Sul.
+Este repositório reúne a análise de dados públicos do Trabalho de Conclusão de Curso *"Investigação de assinaturas de vesículas extracelulares associadas à modulação fenotípica de células mamárias no contexto do câncer de mama"* (Ilum Escola de Ciência, CNPEM). Este projeto possui como principais autores Pedro Henrique Medeiros Bramante e Joana de Medeiros Oliveira Hulse Molinete. Ele atende ao quarto objetivo específico do projeto: entender os desafios de acesso ao diagnóstico e ao tratamento do câncer de mama no Sistema Único de Saúde, comparando as regiões Norte, Nordeste, Centro-Oeste, Sudeste e Sul.
 
 Tudo é feito com bases oficiais e abertas do INCA e do DATASUS, baixadas e processadas por código reprodutível. Os resultados são apresentados em 13 cadernos Jupyter escritos para serem lidos por qualquer pessoa, com cada passo explicado.
 
